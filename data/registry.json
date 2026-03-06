@@ -1,0 +1,103 @@
+{
+    "schema_version": "1.0",
+    "base_url_pattern": "https://{github_user}.github.io/{repo_name}",
+    "github_user": "malphons",
+    "spokes": [
+        {
+            "id": "fund-convex-sets",
+            "repo_name": "co-zoo-fund-convex-sets",
+            "group": "foundations",
+            "category": "convex-sets",
+            "label": "Convex Sets",
+            "enabled": true
+        },
+        {
+            "id": "fund-least-squares",
+            "repo_name": "co-zoo-fund-least-squares",
+            "group": "foundations",
+            "category": "least-squares",
+            "label": "Least Squares",
+            "enabled": true
+        },
+        {
+            "id": "fund-projection",
+            "repo_name": "co-zoo-fund-projection",
+            "group": "foundations",
+            "category": "projection",
+            "label": "Projection",
+            "enabled": true
+        },
+        {
+            "id": "fund-regularization",
+            "repo_name": "co-zoo-fund-regularization",
+            "group": "foundations",
+            "category": "regularization",
+            "label": "Regularization",
+            "enabled": true
+        },
+        {
+            "id": "prog-linear",
+            "repo_name": "co-zoo-prog-linear",
+            "group": "programs",
+            "category": "linear-prog",
+            "label": "Linear Programming",
+            "enabled": true
+        },
+        {
+            "id": "prog-quadratic",
+            "repo_name": "co-zoo-prog-quadratic",
+            "group": "programs",
+            "category": "quadratic-prog",
+            "label": "Quadratic Programming",
+            "enabled": true
+        },
+        {
+            "id": "mat-psd",
+            "repo_name": "co-zoo-mat-psd",
+            "group": "matrix-space",
+            "category": "psd-matrices",
+            "label": "PSD Matrices",
+            "enabled": true
+        },
+        {
+            "id": "mat-sdp",
+            "repo_name": "co-zoo-mat-sdp",
+            "group": "matrix-space",
+            "category": "sdp-lmi",
+            "label": "SDP / LMI",
+            "enabled": true
+        },
+        {
+            "id": "mat-barrier",
+            "repo_name": "co-zoo-mat-barrier",
+            "group": "matrix-space",
+            "category": "log-det-barrier",
+            "label": "Log-Det Barrier",
+            "enabled": true
+        },
+        {
+            "id": "mat-divergence",
+            "repo_name": "co-zoo-mat-divergence",
+            "group": "matrix-space",
+            "category": "bregman-divergence",
+            "label": "Bregman Divergence",
+            "enabled": true
+        },
+        {
+            "id": "syn-duality",
+            "repo_name": "co-zoo-syn-duality",
+            "group": "synthesis",
+            "category": "duality-kkt",
+            "label": "Duality & KKT",
+            "enabled": true
+        },
+        {
+            "id": "syn-capstone",
+            "repo_name": "co-zoo-syn-capstone",
+            "group": "synthesis",
+            "category": "capstone",
+            "label": "Capstone",
+            "enabled": true
+        }
+    ]
+}
